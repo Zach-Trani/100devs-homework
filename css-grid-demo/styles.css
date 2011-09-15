@@ -29,6 +29,13 @@ nav form input {
     width: 100%;
 }
 
+.top-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .grid-item-2 {
     background-color: yellow;
     grid-area: section-one;
