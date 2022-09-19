@@ -6,19 +6,31 @@ body {
 .grid-item-1 {
     background-color: cyan;
     height: 200px;
-    width: 900px;
+    /* width: 900px; */
 }
 .grid-item-2 {
     background-color: yellow;
     height: 200px;
-    width: 900px;
+    /* width: 900px; */
 }
 .grid-item-3 {
     background-color: yellowgreen;
     height: 200px;
-    width: 900px;
+    /* width: 900px; */
+}
+.grid-item-4 {
+    background-color: blueviolet;
+    height: 200px;
+    /* width: 900px; */
+}
+.grid-item-5 {
+    background-color: purple;
+    height: 200px;
+    /* width: 900px; */
 }
 
 .grid-container {
-    display: grid
+    display: grid;
+    /* array: %,px, fr*/
+    grid-template-columns: repeat(2, 100px)
 }
