@@ -4,7 +4,7 @@ body {
 }
 
 .grid-item {
-    border: 6px black solid;
+    border: 1px black solid;
 }
 
 header {
@@ -85,17 +85,14 @@ nav form input {
 }
 
 .grid-item-10 {
-    background-color: lightgreen;
     grid-area: section-ten;
 }
 
 .grid-item-11 {
-    background-color: lightgreen;
     grid-area: section-eleven;
 }
 
 .grid-item-12 {
-    background-color: lightgreen;
     grid-area: section-twelve;
 }
 
@@ -103,7 +100,7 @@ nav form input {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 200px;
-    row-gap: 20px;
+    row-gap: 0px;
     column-gap: 20px;
     grid-template-areas: 
 "section-seven section-eight section-nine"
@@ -111,6 +108,10 @@ nav form input {
     ;
 }
 
-.middle-h1 {
+h2 {
+    font-size: 22px;
+}
 
+span {
+    font-size: 16px;
 }
