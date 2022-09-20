@@ -3,12 +3,30 @@ body {
     background-color: white;
 }
 
-.navigation li {
-    display: inline-block;
-  }
-
 .grid-item {
     border: 6px black solid;
+}
+
+header {
+    height: 55px;
+    background: black;
+    color: white;
+}
+
+nav * {
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+
+}
+
+nav ul {
+    width: 50%;
+}
+
+nav form input {
+    width: 100%;
 }
 
 .grid-item-2 {
@@ -66,14 +84,30 @@ body {
     grid-area: section-nine;
 }
 
+.grid-item-10 {
+    background-color: lightgreen;
+    grid-area: section-ten;
+}
+
+.grid-item-11 {
+    background-color: lightgreen;
+    grid-area: section-eleven;
+}
+
+.grid-item-12 {
+    background-color: lightgreen;
+    grid-area: section-twelve;
+}
+
 .grid-container-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: 300px 200px;
     row-gap: 20px;
     column-gap: 20px;
     grid-template-areas: 
 "section-seven section-eight section-nine"
+"section-ten section-eleven section-twelve"
     ;
 }
 
