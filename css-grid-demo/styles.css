@@ -33,7 +33,7 @@ nav form input {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .grid-item-2 {
@@ -42,20 +42,17 @@ nav form input {
 
 
 }
-
 .grid-item-3 {
     background-color: yellowgreen;
     grid-area: section-two;
 
 }
-
 .grid-item-4 {
     background-color: blueviolet;
     grid-area: section-three;
 
 
 }
-
 .grid-item-5 {
     background-color: purple;
     grid-area: section-four;
@@ -73,9 +70,9 @@ nav form input {
     grid-template-rows: 150px 150px;
     row-gap: 20px;
     column-gap: 20px;
-    grid-template-areas:
-        "section-one section-two section-three"
-        "section-one section-four section-five"
+    grid-template-areas: 
+"section-one section-two section-three"
+"section-one section-four section-five"
     ;
 }
 
@@ -112,9 +109,9 @@ nav form input {
     grid-template-rows: 300px 200px;
     row-gap: 0px;
     column-gap: 20px;
-    grid-template-areas:
-        "section-seven section-eight section-nine"
-        "section-ten section-eleven section-twelve"
+    grid-template-areas: 
+"section-seven section-eight section-nine"
+"section-ten section-eleven section-twelve"
     ;
 }
 
@@ -127,7 +124,7 @@ span {
 }
 
 @media screen and (max-width: 390px) {
-
+    
     .grid-container-1 {
         display: grid;
         /* array: %,px, fr (of the screen)*/
@@ -135,22 +132,22 @@ span {
         grid-template-rows: 150px 150px;
         row-gap: 20px;
         column-gap: 20px;
-        grid-template-areas:
-            "section-one section-two section-three"
-            "section-one section-four section-five"
+        grid-template-areas: 
+    "section-one section-two section-three"
+    "section-one section-four section-five"
         ;
     }
 
     .grid-container-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px 200px;
-        row-gap: 0px;
-        column-gap: 20px;
-        grid-template-areas:
-            "section-seven section-eight section-nine"
-            "section-ten section-eleven section-twelve"
-        ;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 200px;
+    row-gap: 0px;
+    column-gap: 20px;
+    grid-template-areas: 
+"section-seven section-eight section-nine"
+"section-ten section-eleven section-twelve"
+    ;
+}
 
 }
