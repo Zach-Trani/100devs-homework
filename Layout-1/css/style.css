@@ -73,8 +73,8 @@ picture {
 
 .grid-container-2 {
   display: grid;
-  grid-template-columns: 2fr 8fr 4fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-"section-one section-two section-three"
+"section-four section-five"
     ;
 }
