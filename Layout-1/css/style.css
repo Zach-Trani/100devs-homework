@@ -46,6 +46,13 @@ picture {
   height: 50%;
   background-color: blue;
 }
+li {
+  margin: 10px 10px 10px 20px;
+}
+
+nav {
+  font-size: 20px;
+}
 
 .header-content {
   margin: 20px 0px 20px 0px;
@@ -54,7 +61,6 @@ picture {
 .grid-item-1 {
   background-color: yellow;
   grid-area: section-one;
-  height: 100%;
 }
 
 .grid-item-2 {
