@@ -41,24 +41,40 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-h1 {
-  /* background-color: yellow; */
+picture {
+  width: 100%;
+  height: 50%;
+  background-color: blue;
 }
 
-.navbar {
-  float: left;
-  width: 15%;
-  background-color: orange;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  background-color: red;
-}
-
-.secondary {
-  float: left;
-  width: 25%;
+.grid-item-1 {
   background-color: yellow;
+  grid-area: section-one;
+  height: 100%;
+}
+
+.grid-item-2 {
+  background-color: cyan;
+  grid-area: section-two;
+}
+
+.grid-item-3 {
+  background-color: lightblue;
+  grid-area: section-three;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 2fr 8fr 4fr;
+  grid-template-areas: 
+"section-one section-two section-three"
+    ;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 8fr 4fr;
+  grid-template-areas: 
+"section-one section-two section-three"
+    ;
 }
