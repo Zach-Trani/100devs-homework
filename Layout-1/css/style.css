@@ -47,6 +47,10 @@ picture {
   background-color: blue;
 }
 
+.header-content {
+  margin: 20px 0px 20px 0px;
+}
+
 .grid-item-1 {
   background-color: yellow;
   grid-area: section-one;
