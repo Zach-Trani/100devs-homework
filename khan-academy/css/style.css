@@ -21,17 +21,21 @@
 /* BASE STYLES
 /*******************************************/
 
-nav,ul {
+nav,ul, main, main section:first-child {
   display: flex;
 }
 
-nav,ul {
+nav,ul, main section {
   justify-content: space-around;
 
 }
 
 ul{
   flex-basis: 30%;
+}
+
+img {
+  width: 70%;
 }
 /******************************************
 /* LAYOUT
