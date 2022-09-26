@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+/* The clearfix, for those unaware, is a CSS hack 
+that solves a persistent bug that occurs when two 
+floated elements are stacked next to each other. 
+When elements are aligned this way, the parent 
+container ends up with a height of 0, and it can 
+easily wreak havoc on a layout. Solution is to 
+assign the clearfix class*/
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
