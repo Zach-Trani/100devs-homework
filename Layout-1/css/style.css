@@ -35,6 +35,14 @@ background-color: cyan;
 /* ADDITIONAL STYLES
 /*******************************************/
 
+html {
+  font-size: 62,5%;
+}
+
+body {
+  font-size: 20px;
+}
+
 .picture {
   width: 100%;
   height: auto;
@@ -64,9 +72,11 @@ nav {
 .grid-item-3 {
   grid-area: section-three;
   margin: 20px 20px 20px 20px;
+  font-size: 1rem;
 }
 
 .grid-container-1 {
+  font-size: 1rem;
   display: grid;
   grid-template-columns: 2fr 8fr 4fr;
   grid-template-areas: 
@@ -75,6 +85,7 @@ nav {
 }
 
 .grid-container-2 {
+  font-size: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
