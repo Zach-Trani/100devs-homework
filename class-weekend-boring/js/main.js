@@ -16,6 +16,8 @@ function check() {
     alert("boring day")
     msg = "boring day"
   }
+  // create a to do list (hint: append to ul in the html)
+  let newListItem = document.createElement("li")
   document.querySelector('#placeToSee').innerText = msg
 }
 
