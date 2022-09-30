@@ -18,7 +18,7 @@ function check() {
   }
   // create a to do list (hint: append to ul in the html)
   // let newListItem = document.createElement("placeToSee")
-  document.querySelector('#placeToSee').innerText = msg
+  document.querySelector('#placeToSee').innerText = msg // investigate document.createElement for to-do list
 }
 
 
