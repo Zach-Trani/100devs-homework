@@ -1,8 +1,6 @@
 //Write your pseduo code first! 
 
-// convert temperature C to F
-
-
+// pseduo code in comments
 
 document.querySelector('#yell').addEventListener('click', convert)
 
