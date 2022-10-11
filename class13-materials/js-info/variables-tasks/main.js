@@ -7,7 +7,7 @@ firstName = 'John';
 
 admin = firstName;
 
-alert(admin)
+// alert(admin)
 
 
 // Task 2
@@ -19,7 +19,7 @@ let currentUserName = 'John'
 // Task 3
 const BIRTHDAY = '18.04.1982'; // make birthday uppercase? - known prior to execution, uppercase ok
 
-const AGE = someCode(BIRTHDAY); // make age uppercase? - No, calculated at runtime
+// const AGE = someCode(BIRTHDAY); // make age uppercase? - No, calculated at runtime
 
 
 // Part 2: Task set from https://javascript.info/function-basics
@@ -81,14 +81,16 @@ min(1, 1)
 // Task 4
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
 
-function pow(x, n) {
+let pow;
+
+pow = function(x, n) {
     let result = x;
 
     for (i = 1; i < n; i++) {
         result *= x;
     }
-    console.log(result)
-}
+    // console.log(result)
+};
 
 // pow(3, 2)
 // pow(3, 3)
@@ -102,3 +104,29 @@ if (n < 1) {
 } else {
   alert( pow(x, n) );
 }
+
+// Part 3: Arrow Functions Basics https://javascript.info/arrow-functions-basics#tasks
+
+// Replace Function Expressions with arrow functions in the code below:
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+
+// ask(
+//   "Do you agree?",
+//   function() { alert("You agreed."); },
+//   function() { alert("You canceled the execution."); }
+// );
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  () => { alert("You agreed."); },
+  () => { alert("You canceled the execution."); }
+);
