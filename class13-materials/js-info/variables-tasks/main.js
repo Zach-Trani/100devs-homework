@@ -82,14 +82,14 @@ min(1, 1) == 1
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
 
 function pow(x, n) {
-    let result = x
+    let result = x;
 
     for (i = 1; i < n; i++) {
-        result *= result
+        result *= x;
     }
-    return result
+    return result;
 }
 
-pow(3, 2) = 3 * 3 = 9
-pow(3, 3) = 3 * 3 * 3 = 27
-pow(1, 100) = 1 * 1 * ...* 1 = 1
+pow(3, 2)
+pow(3, 3)
+pow(1, 100)
