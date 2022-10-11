@@ -69,7 +69,7 @@ function min(a, b) {
     }
 }
 
-function min(a,b) {
+function min(a, b) {
     return a < b ? a : b
 }
 
@@ -81,8 +81,13 @@ min(1, 1) == 1
 // Task 4
 // Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
 
-function pow(x,n) {
-    return Math.pow(x,n)
+function pow(x, n) {
+    let result = x
+
+    for (i = 1; i < n; i++) {
+        result *= result
+    }
+    return result
 }
 
 pow(3, 2) = 3 * 3 = 9
