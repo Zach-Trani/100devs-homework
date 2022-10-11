@@ -90,6 +90,15 @@ function pow(x, n) {
     console.log(result)
 }
 
-pow(3, 2)
-pow(3, 3)
-pow(1, 100)
+// pow(3, 2)
+// pow(3, 3)
+// pow(1, 100)
+
+let x = prompt("x?", '');
+let n = prompt("n?", '');
+
+if (n < 1) {
+  alert(`Power ${n} is not supported, use a positive integer`);
+} else {
+  alert( pow(x, n) );
+}
