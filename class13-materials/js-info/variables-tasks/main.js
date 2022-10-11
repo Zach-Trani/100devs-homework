@@ -73,9 +73,9 @@ function min(a, b) {
     return a < b ? a : b
 }
 
-min(2, 5) == 2
-min(3, -1) == -1
-min(1, 1) == 1
+min(2, 5)
+min(3, -1)
+min(1, 1)
 
 
 // Task 4
@@ -87,7 +87,7 @@ function pow(x, n) {
     for (i = 1; i < n; i++) {
         result *= x;
     }
-    return result;
+    console.log(result)
 }
 
 pow(3, 2)
