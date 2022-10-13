@@ -7,11 +7,11 @@ console.log(randomNum)
 
 function checkGuess(guess) {
     if (guess == randomNum){
-        console.log('You Win')
+        return 'You Win'
     }   else if (guess < randomNum) {
-        console.log('Too Low')
+        return 'Too Low'
     } else {
-        console.log('Too High')
+        return 'Too High'
     }
 }
 
@@ -19,5 +19,7 @@ function checkGuess(guess) {
 
 const guess = document.querySelector('.userInput')
 const action = document.querySelector('.userButton').addEventListener('click', (e) => {
-    checkGuess(guess.value)    // console log user's guess
+    const userFeedback = checkGuess(guess.value);
+    document.querySelector('#placeToSee').innerHTML = userFeedback;
+
 })
