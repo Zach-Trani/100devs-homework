@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: lightblue;
+}
