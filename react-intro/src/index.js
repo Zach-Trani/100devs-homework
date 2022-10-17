@@ -10,13 +10,11 @@ const el = document.getElementById('root')
 // 3) Tell React to take control of that element
 const root = ReactDOM.createRoot(el);
 
-// 4) Create a component (a function that returns some jsx)
+// 4) Create a component (a function that computes some code and returns some JSX)
 function App() {
-    let message = 'Bye there!'
-    if (Math.random() > 0.5) {
-        message = 'Hello there!';
-    }
-    return <h1>{message}</h1>; // note {} to return variable
+    const inputType = 'Number';
+    const minValue = 5;
+    return <input type={inputType} min={minValue} />;
 }
 
 // 5) Show the component on the screen (pass in App as jsx element)
