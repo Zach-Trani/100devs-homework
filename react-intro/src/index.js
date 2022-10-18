@@ -12,10 +12,14 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component (a function that computes some code and returns some JSX)
 function App() {
-    const inputType = 'Number';
-    const minValue = 5;
-    return <input type={inputType} min={minValue} />;
+    return <input style={{ border: '1px solid blue' }} />;
 }
 
 // 5) Show the component on the screen (pass in App as jsx element)
 root.render(<App />);
+
+
+// Convert html to JSX
+
+// Rule 1) all prop names are camelCase
+// Rule 2) Number attributes use curly braces 
