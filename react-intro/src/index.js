@@ -19,7 +19,16 @@ function App() {
 root.render(<App />);
 
 
-// Convert html to JSX
+// Practice JSX Conversion
+// Remember the five rules of converting HTML to JSX.
 
-// Rule 1) all prop names are camelCase
-// Rule 2) Number attributes use curly braces 
+// Rule 1) All prop names follow camelCase capitalization
+
+// Rule 2) Number attributes use curly braces
+
+// Rule 3) Booleans of 'true' can be written with just the property name
+
+// Rule 4) The 'class' attribute is written as 'className'
+
+// Rule 5)In-line styles are provided as objects
+
